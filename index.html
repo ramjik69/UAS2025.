@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Studio Kreatif Ramzi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Studio Kreatif Ramzi</h1>
+    <marquee class="promo">Promo minggu ini! Booking jasa foto dan desain dapat diskon spesial!</marquee>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="transaksi.html">Booking</a>
+    <a href="tentang.html">Tentang Kami</a>
+  </nav>
+
+  <main>
+    <div class="container-main">
+      <!-- Kiri -->
+      <aside class="container-left">
+        <h3>Kategori</h3>
+        <ul>
+          <li>Fotografi</li>
+          <li>Videografi</li>
+          <li>Desain Grafis</li>
+        </ul>
+        <hr>
+        <h3>Kontak</h3>
+        <p>Email: ramzifoto@example.com</p>
+        <p>Instagram: <a href="https://instagram.com/rafitraa" target="_blank">@rafitraa</a></p>
+        <hr>
+        <h3>Jam Operasional</h3>
+        <ul style="list-style:none; padding-left:0;">
+          <li>Senin - Jumat: 09.00 - 18.00</li>
+          <li>Sabtu: 09.00 - 15.00</li>
+          <li>Minggu & Libur: Tutup</li>
+        </ul>
+        <hr>
+        <h3>Lokasi Studio</h3>
+        <p>Jl. Kreatif No. 10, Bandung</p>
+        <iframe 
+          src="https://www.google.com/maps?q=-6.914864,107.608238&hl=es;z=14&amp;output=embed" 
+          width="100%" height="120" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy"></iframe>
+      </aside>
+
+      <!-- Tengah -->
+      <section class="content">
+        <h2>Daftar Jasa</h2>
+        <div class="jasa-list">
+          <div class="jasa-card">
+            <img src="preweding.jpg" alt="Prewedding">
+            <h3>Prewedding Photoshoot</h3>
+            <p>Paket foto prewedding dengan konsep yang dapat disesuaikan, termasuk cetak album dan digital copy.</p>
+            <strong>Harga:</strong> Rp1.500.000
+            <button onclick="pesan()">Booking Sekarang</button>
+          </div>
+          <div class="jasa-card">
+            <img src="logo.jpg" alt="Desain Logo">
+            <h3>Desain Logo Profesional</h3>
+            <p>Desain logo eksklusif untuk bisnis Anda, mencakup 3 revisi dan file dalam format vektor.</p>
+            <strong>Harga:</strong> Rp300.000
+            <button onclick="pesan()">Booking Sekarang</button>
+          </div>
+          <div class="jasa-card">
+            <img src="acara.jpg" alt="Video Acara">
+            <h3>Video Dokumentasi Acara</h3>
+            <p>Layanan dokumentasi video acara seperti ulang tahun, seminar, atau gathering.</p>
+            <strong>Harga:</strong> Rp600.000
+            <button onclick="pesan()">Booking Sekarang</button>
+          </div>
+          <div class="jasa-card">
+            <img src="cinematic.jpg" alt="Video Cinematic">
+            <h3>Video Cinematic</h3>
+            <p>Video sinematik profesional untuk profil bisnis, wedding, dan branding personal.</p>
+            <strong>Harga:</strong> Rp500.000
+            <button onclick="pesan()">Booking Sekarang</button>
+          </div>
+        </div>
+        <!-- Konten tambahan di bawah daftar jasa -->
+        <hr>
+        <div class="galeri-mini">
+          <h3>Galeri Hasil Karya</h3>
+          <div class="galeri-list">
+            <img src="galeri1.jpg" alt="Hasil Foto 1">
+            <img src="galeri2.jpg" alt="Hasil Foto 2">
+            <img src="galeri3.jpg" alt="Hasil Foto 3">
+          </div>
+        </div>
+        <div class="cta-box">
+          <h3>Tertarik dengan layanan kami?</h3>
+          <p>Segera booking jasa favorit Anda dan dapatkan promo spesial bulan ini!</p>
+          <a href="transaksi.html" class="cta-btn">Booking Sekarang</a>
+        </div>
+      </section>
+
+      <!-- Kanan -->
+      <aside class="container-right">
+        <h3>Promo & Testimoni</h3>
+        <div class="promo-box">
+          <p><strong>Diskon 10% untuk booking bulan Agustus!</strong></p>
+        </div>
+        <hr>
+        <div class="testimoni">
+          <p>"Pelayanan sangat profesional dan hasil foto memuaskan!"<br><em>- Andi, Jakarta</em></p>
+          <p>"Desain logo bisnis saya sangat keren dan unik."<br><em>- Sinta, Bandung</em></p>
+        </div>
+        <hr>
+        <h3>Layanan Unggulan</h3>
+        <ul style="padding-left:18px;">
+          <li>Fotografer & desainer berpengalaman</li>
+          <li>Hasil editing profesional</li>
+          <li>Respon cepat & ramah</li>
+          <li>Revisi desain hingga 3x</li>
+        </ul>
+        <hr>
+        <h3>FAQ Singkat</h3>
+        <div class="faq">
+          <p><strong>Q:</strong> Apakah bisa request konsep foto?<br>
+            <strong>A:</strong> Tentu, konsep bisa disesuaikan dengan keinginan Anda.</p>
+          <p><strong>Q:</strong> Berapa lama proses desain logo?<br>
+            <strong>A:</strong> Rata-rata 2-3 hari kerja, tergantung revisi.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Studio Kreatif Ramzi</p>
+  </footer>
+
+</body>
+</html>

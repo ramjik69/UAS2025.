@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Booking - Studio Kreatif Ramzi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Studio Kreatif Ramzi</h1>
+    <marquee class="promo">Promo minggu ini! Booking jasa foto dan desain dapat diskon spesial!</marquee>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="transaksi.html">Booking</a>
+    <a href="tentang.html">Tentang Kami</a>
+  </nav>
+
+  <main>
+    <section class="content">
+      <h2>Form Pemesanan</h2>
+      <div class="form-card">
+        <form action="invoice.html" method="get" onsubmit="return validateForm(event)">
+          <div class="form-group">
+            <label for="nama"><span class="form-icon">👤</span> Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+          </div>
+          <div class="form-group">
+            <label for="email"><span class="form-icon">📧</span> Email</label>
+            <input type="email" id="email" name="email" required placeholder="email@domain.com">
+          </div>
+          <div class="form-group">
+            <label for="telepon"><span class="form-icon">📱</span> Nomor Telepon</label>
+            <input type="text" id="telepon" name="telepon" required placeholder="08xxxxxxxxxx">
+          </div>
+          <div class="form-group">
+            <label for="jasa"><span class="form-icon">🛠️</span> Jenis Jasa</label>
+            <select id="jasa" name="jasa" required>
+              <option value="">-- Pilih Jasa --</option>
+              <option>Prewedding</option>
+              <option>Desain Logo</option>
+              <option>Video Acara</option>
+              <option>Video Cinematic</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="tanggal"><span class="form-icon">📅</span> Tanggal Pemesanan</label>
+            <input type="date" id="tanggal" name="tanggal" required>
+          </div>
+          <div class="form-group" style="text-align:center;">
+            <input type="submit" value="Kirim Pemesanan" class="form-btn">
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Studio Kreatif Ramzi</p>
+  </footer>
+
+</body>
+</html>
